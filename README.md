@@ -1,10 +1,10 @@
-🧮 Abacus Master Exam - Professional Edition
+## 🧮 Abacus Master Exam - Professional Edition
 
 A robust, full-stack web application designed for conducting mental arithmetic and abacus exams. This platform features role-based access control, a secure exam environment, and detailed performance analytics, all packaged in a Dockerized environment for easy deployment.
 
-🌟 Features
+## 🌟 Features
 
-🔐 Authentication & Roles
+## 🔐 Authentication & Roles
 
 Secure Login: Username and password authentication for all users.
 
@@ -12,7 +12,7 @@ Role-Based Access: Distinct dashboards and permissions for Admins and Students.
 
 Password Management: Users and Admins can change their passwords securely.
 
-👨‍💼 Admin Panel
+## 👨‍💼 Admin Panel
 
 User Management: Create student accounts and set initial passwords.
 
@@ -22,7 +22,7 @@ Performance Analytics: View a global leaderboard of student progress.
 
 Detailed Inspection: Drill down into any student's history to see every exam attempt, score, time taken, and completion status.
 
-🎓 Student Dashboard
+## 🎓 Student Dashboard
 
 Personalized Exams: Students only see exams for the levels assigned to them by the Admin.
 
@@ -30,7 +30,7 @@ Exam History: View a list of recent attempts with scores and dates.
 
 Detailed Reports: "View All" functionality to see a granular breakdown of past performance.
 
-📝 Exam Interface
+## 📝 Exam Interface
 
 100 Questions: Standardized exam format.
 
@@ -44,7 +44,7 @@ Auto-Submit: Exams are automatically submitted when the timer hits zero.
 
 Save & Quit: Option to save partial progress if a student needs to leave early.
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 Frontend: Vanilla JavaScript (ES6+), HTML5, Tailwind CSS (via CDN), Lucide Icons.
 
@@ -54,7 +54,7 @@ Database: PostgreSQL 15.
 
 Containerization: Docker & Docker Compose.
 
-🚀 Installation & Setup
+## 🚀 Installation & Setup
 
 Prerequisites
 
@@ -94,9 +94,9 @@ docker compose up --build
 Open your web browser and navigate to:
 http://localhost:3000
 
-📖 Usage Guide
+## 📖 Usage Guide
 
-🔑 Default Admin Credentials
+# 🔑 Default Admin Credentials
 
 Username: admin
 
@@ -140,7 +140,7 @@ Check the "Recent History" list on the dashboard.
 
 Click "View All" to see detailed statistics for every attempt.
 
-🗄️ Database Schema
+## 🗄️ Database Schema
 
 The application uses two main tables in PostgreSQL:
 
@@ -156,7 +156,7 @@ time_taken_seconds: Actual time spent on the exam.
 
 questions_attempted: How many questions were answered before submitting/quitting.
 
-❓ Troubleshooting
+## ❓ Troubleshooting
 
 Q: I see "Connection Refused" or database errors.
 A: Ensure the database container is fully running. If you modified init.sql, run docker compose down -v to reset the volume and apply changes.
