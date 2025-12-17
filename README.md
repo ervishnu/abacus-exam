@@ -94,7 +94,7 @@ docker compose up --build
 Open your web browser and navigate to:
 http://localhost:3000
 
-## 📖 Usage Guide
+# 📖 Usage Guide
 
 # 🔑 Default Admin Credentials
 
